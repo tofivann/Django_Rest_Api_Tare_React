@@ -16,5 +16,5 @@ export const createTask = (task) =>{
     return tasksApi.post('/', task)
 }
 // export const createTask =(task) => tasksApi.post('/', task) //escrito mas resumido 
-export const deleteTask =(id) => tasksApi.delete(`/${id}`) //escrito mas resumido 
+export const deleteTask =(id) => tasksApi.delete(`/${id}/`) //escrito mas resumido 
 export const updateTask =(id, task) => tasksApi.put(`/${id}/`, task)
